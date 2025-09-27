@@ -1,9 +1,9 @@
-Gestion des Emplois du Temps – Android Mobile App
+# Gestion des Emplois du Temps – Android Mobile App
 
 This is the Android mobile application of the academic project Gestion des Emplois du Temps (Timetable Management System), developed with Android Studio.
 It provides students, professors, and admins with a mobile-friendly interface to manage and visualize class schedules, handle notifications, and manage make-up sessions (séances de rattrapage).
 
-📌 Project Overview
+# 📌 Project Overview
 
 The goal of this Android app is to offer a smooth, intuitive, and interactive experience on mobile devices:
 
@@ -19,7 +19,7 @@ Offer offline caching and optimized performance for mobile devices.
 
 This repository contains the Android implementation of the Timetable Management System.
 
-🚀 Features
+# 🚀 Features
 
 📅 Timetable Display: View class schedules for students and professors on mobile.
 
@@ -41,7 +41,7 @@ Perform CRUD operations on professors and timetable entries.
 
 ⚡ Interactive UI: Designed in line with modern mobile UX principles.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Language: Java / Kotlin
 
@@ -57,7 +57,7 @@ Notifications: Firebase Cloud Messaging (FCM)
 
 Version Control: Git & GitHub
 
-📂 Project Structure
+# 📂 Project Structure
 
 ``bash
 app/
