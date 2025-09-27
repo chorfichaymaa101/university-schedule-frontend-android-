@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:gravity="center_vertical">
+
+        <!-- Professor's Name -->
+        <TextView
+            android:id="@+id/prof_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Professor Name"
+            android:textSize="16sp"
+            android:paddingEnd="8dp" />
+
+        <!-- Modify Button -->
+        <ImageButton
+            android:id="@+id/btn_modify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_mode_edit_24"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="Modify button"
+            android:padding="12dp" />
+
+        <!-- Delete Button -->
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_delete_24"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="Delete button"
+            android:padding="12dp"
+            />
+</LinearLayout>
+

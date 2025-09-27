@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+    >
+
+<!-- Background Image -->
+<ImageView
+    android:id="@+id/backgroundImage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/school_background"
+    android:scaleType="centerCrop"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true" />
+
+<!-- Logo (Optional) -->
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="200dp"
+    android:layout_height="120dp"
+    android:src="@drawable/logo"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="80dp"
+    android:elevation="4dp"
+    android:contentDescription="logo" />
+
+<!-- Welcome Text (Optional)
+<TextView
+    android:id="@+id/welcomeText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome to Ensak's App"
+    android:textColor="@android:color/black"
+    android:textSize="22sp"
+    android:fontFamily="sans-serif-medium"
+    android:layout_below="@id/logo"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:gravity="center" /> -->
+
+<!-- Login with Gmail Button -->
+<Button
+    android:id="@+id/loginWithGmailButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login with Gmail"
+    android:backgroundTint="@color/titre"
+    android:textColor="@android:color/white"
+    android:padding="2dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="110dp"
+    android:elevation="6dp"
+    android:drawableStart="@drawable/google"
+    android:drawablePadding="2dp"
+    android:fontFamily="sans-serif-medium"
+    android:layout_gravity="center_horizontal" />
+
+<!-- Sign Up Button -->
+<Button
+    android:id="@+id/signUpButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sign Up"
+    android:backgroundTint="@color/titre"
+    android:textColor="@android:color/white"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="4dp"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="50dp"
+    android:elevation="6dp"
+    android:fontFamily="sans-serif-medium"
+    android:layout_gravity="center_horizontal" />
+
+</RelativeLayout>
