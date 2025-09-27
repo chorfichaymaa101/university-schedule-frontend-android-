@@ -71,7 +71,7 @@ app/
 ## ▶️ Steps to Run the Project
 Clone the repository
 
-git clone https://github.com/chorfichaymaa101/Gestion-des-emplois-du-temps-Android.git
+git clone https://github.com/chorfichaymaa101/university-schedule-frontend-android.git
 cd Gestion-des-emplois-du-temps-Android
 
 Open in Android Studio
