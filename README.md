@@ -59,7 +59,6 @@ Version Control: Git & GitHub
 
 # 📂 Project Structure
 
-``bash
 app/
 ├── src/main/java/ # Java/Kotlin classes, Activities, ViewModels
 ├── src/main/res/ # Layouts, drawables, icons, colors, strings
@@ -70,12 +69,10 @@ app/
 ---
 
 ## ▶️ Steps to Run the Project
+Clone the repository
 
-1. **Clone the repository**  
-``bash
 git clone https://github.com/chorfichaymaa101/Gestion-des-emplois-du-temps-Android.git
 cd Gestion-des-emplois-du-temps-Android
-
 
 Open in Android Studio
 
